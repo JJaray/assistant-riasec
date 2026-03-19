@@ -13,4 +13,20 @@ for q in questions:
 print("\nVotre profil RIASEC :")
 for k, v in scores.items():
     print(k, ":", v)
+# déterminer le profil dominant
+dominant = max(scores, key=scores.get)
+
+print("\nProfil dominant :", dominant)
+descriptions = {
+    "R": "Réaliste : aime le concret et les activités pratiques",
+    "I": "Investigateur : aime analyser et comprendre",
+    "A": "Artistique : aime créer et imaginer",
+    "S": "Social : aime aider et accompagner",
+    "E": "Entreprenant : aime diriger et convaincre",
+    "C": "Conventionnel : aime organiser et structurer"
+}
+
+print("\nInterprétation :")
+print(descriptions[dominant])
+
     
