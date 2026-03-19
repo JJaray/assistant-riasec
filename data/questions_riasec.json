@@ -1,1 +1,8 @@
-[] 
+[
+  {"question": "J'aime réparer des objets", "type": "R"},
+  {"question": "J'aime analyser des problèmes complexes", "type": "I"},
+  {"question": "J'aime créer des œuvres artistiques", "type": "A"},
+  {"question": "J'aime aider les autres", "type": "S"},
+  {"question": "J'aime diriger un projet", "type": "E"},
+  {"question": "J'aime organiser des informations", "type": "C"}
+]
